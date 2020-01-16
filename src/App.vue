@@ -6,10 +6,13 @@
 </template>
 
 <script>
+import Textarea from './components/Textarea.vue'
 
 export default {
   name: 'app',
-  components: {},
+  components: {
+    Textarea,
+  },
 }
 </script>
 
